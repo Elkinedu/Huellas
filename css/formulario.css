@@ -1,0 +1,159 @@
+table{
+    text-transform: capitalize;
+	margin:auto;
+    margin-top: 60px;
+	width: 90%;
+	max-width: 500px;
+    max-height: 1000px;
+	background: #F3F3F3;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 7px; 
+}
+
+table#ntab{
+    text-transform: capitalize;
+	margin:auto;
+    margin-top: 20px;
+	width: 100%;
+	max-width: 850px;
+    max-height: 1000px;
+	background: #F3F3F3;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 7px; 
+}
+
+
+tr:nth-child(odd) {
+    background-color:#grey;
+}
+tr:nth-child(even) {
+    background-color:#fbfbfb;
+}
+
+form#caja{
+    border-radius: 7px; 
+}
+
+form{
+	margin:auto;
+    margin-top: 60px;
+	width: 90%;
+	max-width: 400px;
+    max-height: 1100px;
+	background: #F3F3F3;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 7px; 
+}
+
+
+select{
+	display: block;
+	padding: 10px;
+	width: 100%;
+    height: 42px;
+	margin: 4px 0;
+	font-size: 15px;
+}
+
+input[type=text]{
+    text-transform: capitalize;
+}
+
+input{
+	display: block;
+	padding: 10px;
+	width: 100%;
+    height: 42px;
+	margin: 4px 0;
+	font-size: 15px;
+    border-radius: 7px;
+}
+
+input[type=radio]{
+    display: inline;
+    height: 19px;
+    width: 20%;
+}
+
+button{
+	display: block;
+	padding: 5px;
+	width: 50%;
+    height: 28px;
+	margin: 4px 0;
+	font-size: 15px;
+    border-radius: 7px;
+    color: #fff;
+    background: #FF0000;
+}
+
+button#bot{
+	display: block;
+	padding: 5px;
+	width: 50%;
+    height: 38px;
+	margin: 4px 0;
+	font-size: 15px;
+    border-radius: 7px;
+    color: #fff;
+    background: #FF0000;
+}
+
+select{
+    border-radius: 7px;   
+}
+
+textarea {
+   resize: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+	background: #FF0000;
+	border: 0;
+    margin: 15px 0;
+	color: #fff;
+    font-size: 15px;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+	width: 50%;
+}
+
+input[type="submit"]:hover{
+	opacity: 1;
+}
+
+input[type="submit"]:active{
+	transform: scale(0.95);
+}
+
+@media (max-width: 768px){
+	form{
+		width: 75%;
+	}
+}
+
+@media (max-width: 480px){
+	form{
+		width: 95%;
+	}
+}
+
+@media (max-width: 768px){
+	.contenido{
+		width: 75%;
+	}
+}
+
+@media (max-width: 480px){
+	.contenido{
+		width: 95%;
+	}
+}
